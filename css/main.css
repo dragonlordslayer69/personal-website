@@ -3,20 +3,21 @@
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
+
 #body {
-    background-color: #183db6;
+    background-color: #000000;
 }
 
-
 #particles-js {
-    background-color: #183db6;
+    background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 100vh;
 }
 
-.wrapper p {
+.wrapper p, h1 {
+    color: white;
     margin-top: 15px;
     margin-bottom: 5px;
 }
