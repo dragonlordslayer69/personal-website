@@ -1,0 +1,37 @@
+* {
+    cursor: url('../images/cursor.png'), default;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+#body {
+    background-color: #183db6;
+}
+
+
+#particles-js {
+    background-color: #183db6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+
+.wrapper p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.wrapper {
+    width: 380px;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, .18);  
+    backdrop-filter: blur(5px);
+    border-radius: 4px;
+    position:absolute;
+    padding: 25px;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%; 
+    margin: -150px 0 0 -190px;
+    text-align: center;
+}
