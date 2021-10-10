@@ -23,4 +23,6 @@ lanyard({
 
 setInterval(getSpotifyStatus,15000)
 
-getSpotifyStatus();
+lanyard({
+  userId: "611012357425987615",
+}).then(displayStatus)
