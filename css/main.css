@@ -46,6 +46,13 @@
     text-align: center;
 }
 
+code {
+    font-family: monospace;
+    color:rgb(255, 83, 112);
+    font-size: 125%;
+
+  }
+
 .socials {
     margin-top: 15px;
 }
