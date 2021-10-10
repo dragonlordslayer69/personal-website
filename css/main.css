@@ -42,7 +42,7 @@
     box-sizing: border-box;
     top: 50%;
     left: 50%; 
-    margin: -205px 0 0 -190px;
+    margin: -185px 0 0 -190px;
     text-align: center;
 }
 
@@ -56,7 +56,7 @@ code {
     margin-top: 15px;
 }
 
-.socials a{
+.socials a {
     margin-right: 15px;
     opacity: 0.3;
 }
