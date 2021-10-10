@@ -21,8 +21,6 @@ lanyard({
   onPresenceUpdate: displayStatus // presenceData
 })
 
-setInterval(getSpotifyStatus,15000)
-
 lanyard({
   userId: "611012357425987615",
 }).then(displayStatus)
