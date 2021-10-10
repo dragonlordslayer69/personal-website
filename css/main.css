@@ -22,6 +22,13 @@
     margin-bottom: 5px;
 }
 
+.wrapper h6 {
+    color: gray;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 
 .wrapper {
     width: 380px;
@@ -35,7 +42,7 @@
     box-sizing: border-box;
     top: 50%;
     left: 50%; 
-    margin: -195px 0 0 -190px;
+    margin: -205px 0 0 -190px;
     text-align: center;
 }
 
