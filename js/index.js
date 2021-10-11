@@ -14,12 +14,12 @@ let displayStatus = async (data) =>{
   }
 }
 
-lanyard({
-  userId: "611012357425987615",
-  socket: true,
-  onPresenceUpdate: displayStatus // presenceData
-})
+function getData() {
+  lanyard({
+    userId: "611012357425987615",
+  }).then(displayStatus)
+}
 
-lanyard({
-  userId: "611012357425987615",
-}).then(displayStatus)
+setInterval(getData, 3000)
+
+getData();
