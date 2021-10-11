@@ -5,7 +5,6 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
 
-
 let displayStatus = async (data) =>{
   if (data.listening_to_spotify) {
     let status = `Listening to ${data.spotify.song} by ${data.spotify.artist} on Spotify`;
