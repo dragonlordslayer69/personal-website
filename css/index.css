@@ -75,6 +75,7 @@ code {
 
 .socials {
     margin-top: 15px;
+    pointer-events:all;
 }
 
 .socials a {
