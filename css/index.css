@@ -4,6 +4,16 @@
     margin-bottom: 5px;
 }
 
+.wrapper h1 {
+  background: #0563F1;
+  background: -webkit-linear-gradient(to right, #5698fc 0%, #ff00ee 50%);
+  background: -moz-linear-gradient(to right, #5698fc 0%, #ff00ee 50%);
+  background: linear-gradient(to right, #5698fc 0%, #ff00ee 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .wrapper h6 {
     color: gray;
     font-size: 10px;
