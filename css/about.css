@@ -20,10 +20,10 @@
     /* padding: 10px; */
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1200px){
     .about {
         margin: auto;
-        width: 60%;
+        width: 80%;
     }
 }
 
