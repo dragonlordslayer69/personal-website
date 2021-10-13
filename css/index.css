@@ -4,7 +4,7 @@
     margin-bottom: 5px;
 }
 
-.wrapper h1 {
+.wrapper h1, h2 {
   background: #0563F1;
   background: -webkit-linear-gradient(to right, #5698fc 0%, #ff00ee 50%);
   background: -moz-linear-gradient(to right, #5698fc 0%, #ff00ee 50%);
@@ -12,6 +12,10 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.small-display {
+  display: none;
 }
 
 .wrapper h6 {
@@ -47,8 +51,8 @@
 @media only screen and (max-width: 693px){
     .wrapper {
         width: 300px;
-        margin: -175px 0 0 -150px;
-        font-size: 90%;
+        margin: -200px 0 0 -150px;
+        /* font-size: 90%; */
     }
 }
 
@@ -101,9 +105,18 @@
   }
 
   @media only screen and (max-height: 500px){
+    .wrapper h1, p, a {
+      display: none;
+    }
+    .spotify-status {
+      display: none;
+    }
+    .small-display {
+      display: contents;
+    }
     .wrapper {
-      width: 800px;
-      margin: -145px 0 0 -400px;
+      width: 400px;
+      margin: -95px 0 0 -200px;
     }
   }
   
