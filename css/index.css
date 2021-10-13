@@ -35,12 +35,12 @@
     backdrop-filter: blur(5px);
     border-radius: 4px;
     position:absolute;
-    padding: 30px 30px 20px 30px;
+    padding: 30px 30px 30px 30px;
     display: block;
     box-sizing: border-box;
     top: 50%;
     left: 50%; 
-    margin: -195px 0 0 -190px;
+    margin: -185px 0 0 -190px;
     text-align: center;
 }
 
@@ -74,19 +74,41 @@
 
 .arrow {
     padding: 10px 0px 0px 0px;
-    /* margin-bottom: 0px; */
-    /* -moz-animation: bounce 2s infinite;
+    z-index: 100;
+    position: absolute;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    bottom: 30px;
+    -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite; */
-    opacity: 30%;
+    animation: bounce 2s infinite;
+    opacity: 70%;
   }
 
   .scroll {
     color: white;
     display: inline-block;
-    font-size: 20%;
+    font-size: 80%;
     -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  @media only screen and (max-height: 550px){
+    .arrow {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-height: 380px){
+    .wrapper {
+      animation: fadeOut 0.4s;
+      -webkit-animation: fadeOut 0.4s;
+      -moz-animation: fadeOut 0.4s;
+      -o-animation: fadeOut 0.4s;
+      -ms-animation: fadeOut 0.4s;
+      opacity: 0;
+    }
   }
   
   @keyframes bounce {
@@ -119,6 +141,32 @@
   @-o-keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
   }
   
   @-ms-keyframes fadeIn {
