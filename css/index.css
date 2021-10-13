@@ -100,14 +100,10 @@
     }
   }
 
-  @media only screen and (max-height: 380px){
+  @media only screen and (max-height: 500px){
     .wrapper {
-      animation: fadeOut 0.4s;
-      -webkit-animation: fadeOut 0.4s;
-      -moz-animation: fadeOut 0.4s;
-      -o-animation: fadeOut 0.4s;
-      -ms-animation: fadeOut 0.4s;
-      opacity: 0;
+      width: 800px;
+      margin: -145px 0 0 -400px;
     }
   }
   
