@@ -4,7 +4,7 @@
   margin-bottom: 5px;
 }
 
-.wrapper h1, h2 {
+.intro h1, h2 {
   color: transparent;
   background-image: -webkit-linear-gradient(100deg, #2ecc71, #3498db, #9b59b6, #f39c12);
   background-image: -moz-linear-linear-gradient(100deg, #2ecc71, #3498db, #9b59b6, #f39c12);

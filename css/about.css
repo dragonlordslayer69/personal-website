@@ -66,7 +66,7 @@
     margin-top: 0.5rem;
 }
 
-.about h1 {
+.about h1, h2 {
     background: #0563F1;
     background: -webkit-linear-gradient(to right, #5698fc 0%, #ff00ee 50%);
     background: -moz-linear-gradient(to right, #5698fc 0%, #ff00ee 50%);
@@ -75,63 +75,3 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-@keyframes chroma {
-    0% {
-      background-position: 0 100%;
-    }
-    50% {
-      background-position: 100% 0;
-    }
-    100% {
-      background-position: 0 100%;
-    }
-  }
-  
-  @-moz-keyframes chroma {
-    0% {
-      background-position: 0 100%;
-    }
-    50% {
-      background-position: 100% 0;
-    }
-    100% {
-      background-position: 0 100%;
-    }
-  }
-  
-  @-webkit-keyframes chroma {
-    0% {
-      background-position: 0 100%;
-    }
-    50% {
-      background-position: 100% 0;
-    }
-    100% {
-      background-position: 0 100%;
-    }
-  }
-  
-  @-o-keyframes chroma {
-    0% {
-      background-position: 0 100%;
-    }
-    50% {
-      background-position: 100% 0;
-    }
-    100% {
-      background-position: 0 100%;
-    }
-  }
-  
-  @-ms-keyframes chroma {
-    0% {
-      background-position: 0 100%;
-    }
-    50% {
-      background-position: 100% 0;
-    }
-    100% {
-      background-position: 0 100%;
-    }
-  }
