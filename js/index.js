@@ -23,3 +23,9 @@ function getData() {
 setInterval(getData, 3000)
 
 getData();
+
+window.onload = async () => {
+  if (localStorage.getItem("playedGame") !== null) {
+    document.getElementById('secret').innerHTML = 'what, a secret link?'
+  }
+}
