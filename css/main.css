@@ -2,6 +2,9 @@
     cursor: url('../images/cursor.png') 10 10, auto;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+}
+
+*:not(#particles-js) {
     transition-duration: 0.5s;
 }
 
