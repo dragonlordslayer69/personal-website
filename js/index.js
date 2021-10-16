@@ -10,16 +10,16 @@ let getSpotifyStatus = async () =>{
   let res = await fetch("https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=jensenzhng&limit=1&api_key=a2fc7e8497efae9583ecda43732a8d14&format=json", {
     method: 'GET'
   }).catch(err => {
-    document.getElementById("spotify-status").children[0].innerHTML = 'Not listening to anything on Spotify right now';
+    document.getElementById("spotify-status").children[1].innerHTML = 'Not listening to anything';
   });
   let statusJSON = await res.json();
   
   console.log(statusJSON);
   if (statusJSON.recenttracks.track[0]['@attr'] && statusJSON.recenttracks.track[0]['@attr'].nowplaying) {
-    let status = `Listening to ${statusJSON.recenttracks.track[0].name} by ${statusJSON.recenttracks.track[0].artist['#text']} on Spotify`;
-    document.getElementById("spotify-status").children[0].innerHTML = status;
+    let status = `Listening to ${statusJSON.recenttracks.track[0].name} by ${statusJSON.recenttracks.track[0].artist['#text']}`;
+    document.getElementById("spotify-status").children[1].innerHTML = status;
   } else {
-    document.getElementById("spotify-status").children[0].innerHTML = 'Not listening to anything on Spotify right now';
+    document.getElementById("spotify-status").children[1].innerHTML = 'Not listening to anything';
   }
 }
 
