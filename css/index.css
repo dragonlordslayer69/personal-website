@@ -294,3 +294,7 @@ footer a {
 footer a:hover {
   color: grey;
 }
+
+.npb {
+  padding-bottom: 0px !important; 
+}
