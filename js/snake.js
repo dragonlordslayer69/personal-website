@@ -176,6 +176,7 @@ window.onload = function () {
     function startGame() {
 
         document.getElementById("startButton").classList.add("peekaboo")
+        document.getElementById("home").classList.add("peekaboo")
         document.getElementById("gameBoardContainer").classList.remove("peekaboo")
         requestAnimationFrame(loop);
 
