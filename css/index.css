@@ -259,9 +259,9 @@ margin-right: 15px;
 }
 
 footer {
+  margin-top: 20px;
   text-align: center;
-  
-  padding: 15px;
+  padding: 20px 40px;
   background-color: black;
   text-decoration: none;
 }
