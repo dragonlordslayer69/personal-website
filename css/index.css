@@ -119,25 +119,6 @@
   }
 }
 
-/* width */
-::-webkit-scrollbar {
-width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-background: #000000;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-background: rgba(255, 255, 255, 0.475);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-background: #555;
-}
 
 .arrow {
   pointer-events: none;
