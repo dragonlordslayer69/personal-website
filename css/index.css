@@ -277,3 +277,10 @@ margin-right: 15px;
 .discord-logo:hover {
   opacity:1;
 }
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 15px;
+  background-color: black;
+}
